@@ -220,11 +220,11 @@ class Block:
         """
         self.position = top_left
         self.size = size
-        halved_size = round(shize / 2.0)
+        halved_size = round(size / 2.0)
 
         if len(self.children) != 0:
             self.children[0].update_block_locations(
-                (top_left[0] + alved_size, top_left[1]), halved_size)
+                (top_left[0] + halved_size, top_left[1]), halved_size)
 
             self.children[1].update_block_locations(top_left, halved_size)
 

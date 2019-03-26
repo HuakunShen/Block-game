@@ -168,15 +168,15 @@ def sample_game() -> None:
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-io': ['run_game'],
-        'allowed-import-modules': [
-            'doctest', 'python_ta', 'random', 'typing',
-            'block', 'goal', 'player', 'renderer'
-        ],
-    })
+    # import python_ta
+    # python_ta.check_all(config={
+    #     'allowed-io': ['run_game'],
+    #     'allowed-import-modules': [
+    #         'doctest', 'python_ta', 'random', 'typing',
+    #         'block', 'goal', 'player', 'renderer'
+    #     ],
+    # })
     # sample_game()
-    # auto_game()
+    auto_game()
     # two_player_game()
-    solitaire_game()
+    # solitaire_game()
